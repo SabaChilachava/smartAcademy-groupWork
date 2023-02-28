@@ -7,6 +7,26 @@
 header{
   background-color:#0020F4 ;
 }
+ul {
+  list-style-type: 0;
+}
+a{
+  text-decoration: 0;
+}
+nav li{
+  display: inline-block;
+}
+nav a {color: #FFFFFF;
+
+}
+.contact-title{
+  color: #171717;
+}
+.Rectangle-img{
+max-width: 707px;
+max-height: 597px;
+}
+
 /* Main */
 
 /* Footer */
