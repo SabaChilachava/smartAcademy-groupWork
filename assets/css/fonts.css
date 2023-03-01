@@ -23,3 +23,11 @@
     font-style: normal;
     font-display: swap;
 }
+font-face{
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueRegular.eot');
+}
+font-face{
+    font-family: 'HelveticaNeueBold';
+    src: url('../fonts/HelveticaNeueBold.eot');
+}
