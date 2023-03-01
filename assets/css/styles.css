@@ -18,9 +18,10 @@ header{
 
 }
 .logo-img{
+  display: flex;
+  vertical-align: middle;
   margin-left: 240px;
-  margin-right: 603px;
-  display: inline-block;
+  margin-right: 603px; 
 }
 header nav a {
   color: #FFFFFF;
@@ -29,7 +30,8 @@ header nav a {
   font-family: HelveticaNeue;
 }
 nav,nav ul, nav li {
-  display: inline-block;
+  display: flex;
+  vertical-align: middle;
 }
 a{
   text-decoration: 0;
@@ -39,6 +41,8 @@ ul{
 }
 
 .contact-title{
+  display: flex;
+  vertical-align: middle;
   padding:19px 81px;
   color: #171717;
   background-color:#FFFFFF;
@@ -48,27 +52,20 @@ ul{
   src: src('../fonts/HelveticaNeueBold.eot');
 
 }
-.rectangle-title{
-  margin-top: 198px;
-  margin-left: 240px;
-  vertical-align: middle;
-}
-.bulding-title{
-  max-width: 948px;
-  max-height: 800px;
-  vertical-align: middle;
-}
 .header-container{
-  display: inline-flex;
-  justify-content: flex-end;
-  width: 100%;
+  display: flex;
+  vertical-align:middle;
 }
 .left{
+  margin-top: 280px;
+  margin-left: 240px;
   max-width: 707px;
   max-height: 597px;
-  margin-bottom: 203px;
+  margin-bottom: 90px;
+  margin-right: 25px;
 }
 .right{
+  margin-top: 215px;
   max-width: 948px;
   max-height: 800px;
 }
