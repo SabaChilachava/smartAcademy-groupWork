@@ -7,10 +7,17 @@
 header{
   background-color: #0020F4;
   padding-top: 40px;
-  height: 387.56px;
+
+}
+.logo-img{
+  margin-top: 40px;
+  margin-left: 240px;
+  margin-right: 603px;
 }
 header nav a {
   color: #FFFFFF;
+  font-size: 16px;
+  margin: 18px;
 }
 header li {
   margin-left: 40px;
@@ -23,6 +30,23 @@ a{
 }
 ul{
  list-style: 0;
+}
+header a {
+  vertical-align: middle;
+}
+.contact-title{
+  padding:19px 81px;
+  color: #171717;
+  background-color:#FFFFFF;
+  border-radius:28px;
+  font-size: 16px;
+}
+.rectangle-title{
+  margin-top: 280px;
+}
+.bulding-title{
+  max-width: 948px;
+  max-height: 800px;
 }
 /* Main */
 
