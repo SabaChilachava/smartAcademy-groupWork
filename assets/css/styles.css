@@ -17,7 +17,7 @@ main {
     max-width: 385px;
 }
 .section-title {
-    font-family: "HelveticaNeueBold";
+    font-family: HelveticaNeueBold;
     color: #171717;
     font-size: 32px;
     margin-bottom: 60px;
@@ -26,7 +26,7 @@ main {
     margin-bottom: 22px;
 }
 .section-paragraph {
-    font-family: "HelveticaNeue";
+    font-family: HelveticaNeue;
     font-size: 16px;
     color: #171717;
 }
@@ -101,7 +101,7 @@ main {
 }
 .carousel-title h2 {
     color: #ffffff;
-    font-family: "HelveticaNeueBold";
+    font-family: HelveticaNeueBold;
     font-size: 32px;
 }
 .carousel-image {
@@ -129,7 +129,7 @@ main {
     border-radius: 12px;
     color: #171717;
     font-size: 18px;
-    font-family: "HelveticaNeue";
+    font-family: HelveticaNeue;
     opacity: 0.9;
 }
 .current-image {
@@ -142,7 +142,64 @@ main {
     border-radius: 12px;
     color: #171717;
     font-size: 18px;
-    font-family: "HelveticaNeue";
+    font-family: HelveticaNeue;
     opacity: 0.9;
+}
+.partners {
+    margin-top: 370px;
+    width: 100%;
+    color: #171717;
+    font-size: 18px;
+    font-family: HelveticaNeueBold;
+}
+.other-partners {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+.partner-container {
+    margin-top: 278px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-left p {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #171717;
+    margin-top: 60px;
+}
+.container-left a {
+    text-decoration: none;
+    color: #0a22f4;
+}
+.container-left h2 {
+    font-family: HelveticaNeueBold;
+    color: #171717;
+    font-size: 32px;
+}
+.container-left {
+    max-width: 463px;
+}
+.partner-circles {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 664px;
+}
+.partner-circle {
+    padding: 5px;
+    background: #0a22f4;
+    border-radius: 100%;
+    margin: 20px;
+}
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin-top: 73px;
+}
+.partner-logos img {
+    max-width: 219px;
+    max-height: 82px;
 }
 /* Footer */
