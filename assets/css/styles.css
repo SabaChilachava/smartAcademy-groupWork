@@ -18,6 +18,7 @@ header nav a {
   color: #FFFFFF;
   font-size: 16px;
   margin: 18px;
+  font-family: HelveticaNeue;
 }
 header li {
   margin-left: 40px;
@@ -40,6 +41,7 @@ header a {
   background-color:#FFFFFF;
   border-radius:28px;
   font-size: 16px;
+  font-family: HelveticaNeueBold;
 }
 .rectangle-title{
   margin-top: 280px;
