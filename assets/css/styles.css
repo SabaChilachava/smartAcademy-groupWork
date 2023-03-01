@@ -6,22 +6,27 @@
 /* Header */
 header{
   background-color: #0020F4;
+}
+.div-titlle{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
   padding-top: 40px;
+  padding-left: 240px;
+  padding-right: 91px;
+}
 
 }
 .logo-img{
-  margin-top: 40px;
   margin-left: 240px;
   margin-right: 603px;
+  display: inline-block;
 }
 header nav a {
   color: #FFFFFF;
   font-size: 16px;
   margin: 18px;
   font-family: HelveticaNeue;
-}
-header li {
-  margin-left: 40px;
 }
 nav,nav ul, nav li {
   display: inline-block;
@@ -32,9 +37,7 @@ a{
 ul{
  list-style: 0;
 }
-header a {
-  vertical-align: middle;
-}
+
 .contact-title{
   padding:19px 81px;
   color: #171717;
@@ -42,11 +45,30 @@ header a {
   border-radius:28px;
   font-size: 16px;
   font-family: HelveticaNeueBold;
+  src: src('../fonts/HelveticaNeueBold.eot');
+
 }
 .rectangle-title{
-  margin-top: 280px;
+  margin-top: 198px;
+  margin-left: 240px;
+  vertical-align: middle;
 }
 .bulding-title{
+  max-width: 948px;
+  max-height: 800px;
+  vertical-align: middle;
+}
+.header-container{
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.left{
+  max-width: 707px;
+  max-height: 597px;
+  margin-bottom: 203px;
+}
+.right{
   max-width: 948px;
   max-height: 800px;
 }
