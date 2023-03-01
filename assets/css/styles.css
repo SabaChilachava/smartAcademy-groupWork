@@ -15,8 +15,6 @@ header{
   padding-left: 240px;
   padding-right: 91px;
 }
-
-}
 .logo-img{
   display: flex;
   vertical-align: middle;
@@ -39,7 +37,6 @@ a{
 ul{
  list-style: 0;
 }
-
 .contact-title{
   display: flex;
   vertical-align: middle;
@@ -50,7 +47,6 @@ ul{
   font-size: 16px;
   font-family: HelveticaNeueBold;
   src: src('../fonts/HelveticaNeueBold.eot');
-
 }
 .header-container{
   display: flex;
