@@ -43,6 +43,10 @@ max-height: 597px;
 /* Main */
 
 /* Konstantine Gelazonia  Project section */
+.project-KG{
+  margin-top: 384px;
+  margin-bottom: 278px;
+}
 .projects-section{
     width: 100%;
     max-height: 308px;
@@ -55,7 +59,9 @@ max-height: 597px;
     justify-content: space-between;
     background-color: #0020F4;
 }
-.projects{
+.h3projects{
+  /* გთხოვთ დაამატეთ მხოლოდ ფონტი */
+    /* font-family:  */
     font-size: 32px;
     font-weight: bold;
     color: #FFFFFF;
@@ -95,6 +101,8 @@ max-height: 597px;
     margin-top: -50px;
 }
 .more-pj{
+  /* გთხოვთ დაამატეთ მხოლოდ ფონტი */
+    /* font-family:  */
     display: flex;
     justify-content: right;
     margin-top: 70px;
@@ -114,6 +122,8 @@ max-height: 597px;
     position: relative;
 }
 .project-images p{
+  /* გთხოვთ დაამატეთ მხოლოდ ფონტი */
+    /* font-family:  */
     position: absolute;
     margin-left: 10px;
     margin-right: 10px;
