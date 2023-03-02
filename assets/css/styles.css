@@ -15,9 +15,6 @@ header{
   padding-left: 240px;
   padding-right: 91px;
 }
-.logo-img{
-  display: flex;
-}
 header nav a {
   color: #FFFFFF;
   font-size: 16px;
