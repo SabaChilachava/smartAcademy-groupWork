@@ -1,9 +1,8 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* emushkudiani Project section*/
 header{
   background-color: #0020F4;
 }
@@ -63,6 +62,66 @@ ul{
   color: #FFFFFF;
   font-size: 50px;
 }
-/* Main */
+main {
+    padding-top: 180px;
+}
+.first-section {
+    display: flex;
+    justify-content: center;
+}
+.first-section-left {
+    max-width: 385px;
+}
+.section-title {
+    font-family: HelveticaNeueBold;
+    color: #171717;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+.section-paragraph {
+    margin-bottom: 22px;
+}
+.section-paragraph {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #171717;
+}
+.section-paragraph a {
+    text-decoration: none;
+    color: #0a22f4;
+}
+.first-section-right {
+    width: 707px;
+    height: 707px;
+    margin-right: 133px;
+}
+.first-section-image {
+    width: 100%;
+    max-width: 707px;
+    margin-top: 220px;
+    margin-left: 137px;
+    border-radius: 15px;
+    box-shadow: 15px 15px #0a22f4;
+}
+.second-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 394px;
+}
+.second-section-left {
+    width: 707px;
+    height: 707px;
+}
+.second-section-image {
+    width: 100%;
+    max-width: 707px;
+    margin-top: 220px;
+    border-radius: 15px;
+    box-shadow: -15px 15px #0a22f4;
+}
+.second-section-right {
+    width: 385px;
+    margin-left: 138px;
+    margin-right: 133px;
+}
 
-/* Footer */
