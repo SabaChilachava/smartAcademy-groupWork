@@ -3,107 +3,212 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Header */
-
-
-/* Main */
-
-/* Konstantine Gelazonia  Project section */
-.project-KG{
+header {
+  background-color: #0020f4;
+  padding-bottom: 65px;
+}
+.div-titlle {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 40px;
+  align-items: center;
+}
+header nav a {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 18px;
+  font-family: HelveticaNeue;
+}
+nav,
+nav ul,
+nav li {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: 0;
+}
+ul {
+  list-style: 0;
+}
+.contact-title {
+  display: flex;
+  vertical-align: middle;
+  padding: 19px 81px;
+  color: #171717;
+  background-color: #ffffff;
+  border-radius: 28px;
+  font-size: 16px;
+  font-family: HelveticaNeueBold;
+}
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 115px;
+}
+.left {
+  margin-right: 25px;
+  margin-top: 65px;
+}
+.right {
+}
+.point {
+  color: #ffffff;
+  font-size: 50px;
+}
+main {
+  padding-top: 180px;
+}
+.first-section {
+  display: flex;
+  justify-content: center;
+}
+.first-section-left {
+  max-width: 385px;
+}
+.section-title {
+  font-family: HelveticaNeueBold;
+  color: #171717;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.section-paragraph {
+  margin-bottom: 22px;
+}
+.section-paragraph {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #171717;
+}
+.section-paragraph a {
+  text-decoration: none;
+  color: #0a22f4;
+}
+.first-section-right {
+  width: 707px;
+  height: 707px;
+  margin-right: 133px;
+}
+.first-section-image {
+  width: 100%;
+  max-width: 707px;
+  margin-top: 220px;
+  margin-left: 137px;
+  border-radius: 15px;
+  box-shadow: 15px 15px #0a22f4;
+}
+.second-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 394px;
+}
+.second-section-left {
+  width: 707px;
+  height: 707px;
+}
+.second-section-image {
+  width: 100%;
+  max-width: 707px;
+  margin-top: 220px;
+  border-radius: 15px;
+  box-shadow: -15px 15px #0a22f4;
+}
+.second-section-right {
+  width: 385px;
+  margin-left: 138px;
+  margin-right: 133px;
+}
+.project-KG {
   margin-top: 384px;
   margin-bottom: 278px;
 }
-.projects-section{
-    width: 100%;
-    max-height: 308px;
-    padding-top: 70px;
-    padding-bottom: 200px;
-    padding-left: 240px;
-    padding-right: 240px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #0020F4;
+.projects-section {
+  width: 100%;
+  max-height: 308px;
+  padding-top: 70px;
+  padding-bottom: 200px;
+  padding-left: 240px;
+  padding-right: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0020f4;
 }
-.h3projects{
-  /* გთხოვთ დაამატეთ მხოლოდ ფონტი */
-    /* font-family:  */
-    font-size: 32px;
-    font-weight: bold;
-    color: #FFFFFF;
+.h3projects {
+  font-size: 32px;
+  color: #ffffff;
+  font-family: HelveticaNeueBold;
 }
-.dots{
-    width: 70px;
-    height: 10px;
-    display: flex;
-    justify-content: space-around;
+.dots {
+  width: 70px;
+  height: 10px;
+  display: flex;
+  justify-content: space-around;
 }
-.white-dot{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
+.white-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
-.Pale-dot{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    opacity: 30%;
+.Pale-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 30%;
 }
-.project-images img{
-    max-width: 463px;
-    width: 100%;
-    max-height: 420px;
-    height: 100%;
-    border-radius: 15px;
+.project-images img {
+  max-width: 463px;
+  width: 100%;
+  max-height: 420px;
+  height: 100%;
+  border-radius: 15px;
 }
-.project-images{
-    margin-top: -120px;
-    display: flex;
-    justify-content: space-evenly;
+.project-images {
+  margin-top: -120px;
+  display: flex;
+  justify-content: space-evenly;
 }
-.img-balconies{
-    margin-top: -50px;
+.img-balconies {
+  margin-top: -50px;
 }
-.more-pj{
-  /* გთხოვთ დაამატეთ მხოლოდ ფონტი */
-    /* font-family:  */
-    display: flex;
-    justify-content: right;
-    margin-top: 70px;
-    margin-right: 256px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #171717;
+.more-pj {
+  display: flex;
+  justify-content: right;
+  margin-top: 70px;
+  margin-right: 256px;
+  font-size: 18px;
+  font-family: HelveticaNeueBold;
+  color: #171717;
 }
-.more-pj::before{
-    content: "";
-    width: 1px;
-    margin-right: 20px;
-    background-color: #171717;
-    border-radius: 2px;
+.more-pj::before {
+  content: "";
+  width: 1px;
+  margin-right: 20px;
+  background-color: #171717;
+  border-radius: 2px;
 }
-.project-images div{
-    position: relative;
+.project-images div {
+  position: relative;
 }
-.project-images p{
-  /* გთხოვთ დაამატეთ მხოლოდ ფონტი */
-    /* font-family:  */
-    position: absolute;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 30px 74px 30px 30px;
-    border-radius: 12px;
-    bottom: 10px;
-    font-size: 18px;
-    line-height: 22px;
-    color: #171717;
-    fill-opacity: 40%;
-    background-color: #FFFFFF;
+.project-images p {
+  position: absolute;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 30px 74px 30px 30px;
+  border-radius: 12px;
+  bottom: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #171717;
+  fill-opacity: 40%;
+  background-color: #ffffff;
+  font-family: HelveticaNeue;
 }
-.selected-p{
-    line-height: 23px;
-    font-weight: bold;
+.selected-p {
+  line-height: 23px;
+  font-weight: bold;
 }
-/* Footer */
