@@ -5,14 +5,14 @@
 }
 header{
   background-color: #0020F4;
+  height: 1080px;
 }
 .div-titlle{
   display: flex;
   justify-content: space-around;
   width: 100%;
   padding-top: 40px;
-  padding-left: 240px;
-  padding-right: 91px;
+  align-items: center;
 }
 header nav a {
   color: #FFFFFF;
@@ -22,7 +22,7 @@ header nav a {
 }
 nav,nav ul, nav li {
   display: flex;
-  vertical-align: middle;
+  align-items: center;
 }
 a{
   text-decoration: 0;
@@ -39,24 +39,19 @@ ul{
   border-radius:28px;
   font-size: 16px;
   font-family: HelveticaNeueBold;
-  src: src('../fonts/HelveticaNeueBold.eot');
 }
 .header-container{
+  width: 100%;
   display: flex;
-  vertical-align: middle;
+  justify-content: flex-end;
+  padding-top: 115px;
 }
 .left{
-  margin-top: 280px;
-  margin-left: 240px;
-  max-width: 707px;
-  max-height: 597px;
-  margin-bottom: 90px;
   margin-right: 25px;
+  margin-top: 65px;
   }
 .right{
-  margin-top: 215px;
-  max-width: 948px;
-  max-height: 800px;
+  
 }
 .point{
   color: #FFFFFF;
